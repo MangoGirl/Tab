@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Document</title>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/tab.js"></script>
+</head>
+<body>
+	<div class="tab" id="tab">
+		<ul class="tabBtn">
+			<li class="cur"><a href="javascript:void(0)">按钮1</a></li>
+			<li><a href="javascript:void(0)">按钮2</a></li>
+			<li><a href="javascript:void(0)">按钮3</a></li>
+		</ul>
+		<div class="tabTest">
+			<div style="display:block;">我是内容1</div>
+			<div>我是内容2</div>
+			<div>我是内容3</div>
+		</div>
+	</div>	
+</body>
+</html>
+<script type="text/javascript">
+	 new Tab({'root':$('#tab')});
+</script>

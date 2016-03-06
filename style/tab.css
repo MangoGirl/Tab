@@ -1,0 +1,46 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑";
+}
+/*以上是css格式化*/
+.tab{
+	width:300px;
+	margin:0 auto;
+}
+.tabBtn{
+	margin-top: 10px;
+}
+.tabBtn li{
+	width:80px;
+	height:25px;
+	margin:0 5px;
+	display: inline-block;
+	background-color: #1970e3;
+	line-height: 25px;
+	text-align: center;
+	color:#fff;
+	border-radius:3px;
+	font-size: 12px;
+	text-decoration: none;
+}
+.tabBtn li.cur{
+	background-color:blue;
+}
+.tabBtn li a{
+	color:#fff;
+	text-decoration: none;
+}
+.tabTest{
+	margin-left:5px;
+	margin-top: 10px;
+}
+.tabTest div{
+	width:268px;
+	height:268px;
+	border:1px solid #1970e3;
+	line-height: 268px;
+	text-align: center;
+	list-style: none;
+	display: none;
+}
